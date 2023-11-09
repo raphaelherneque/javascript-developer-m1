@@ -19,8 +19,5 @@ const{ gets, print } = require('./funcoes-auxiliares1')
 const numero = gets()
 
 for (let i = 0; i <= 9; i++) {
-    print((`${numero} + ${i} =`), numero + i, 
-        (`${i + numero} - ${numero} =`), i + numero - numero, 
-        (`${numero} x ${i} =`), numero * i, 
-        (`${numero * i} / ${numero} =`), (numero * i)/numero)
+    print(`${numero} + ${i} = ${numero + i}    ${i + numero} - ${numero} = ${i + numero - numero}    ${numero} x ${i} = ${numero * i}    ${numero * i} / ${numero} = ${numero * i/numero}`)
 }
